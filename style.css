@@ -33,3 +33,190 @@
 	float: right;
 	display:  inline-block;
 }
+.main-visual {
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: 100%;
+	background-position: center;
+}
+.main-visual-text {
+	padding-top: 200px;
+	text-align: center;
+}
+.title-text {
+	color: #FAFAFA;
+	font-size: 64px;
+}
+.sub-text {
+	color: #FAFAFA;
+	font-size: 20px;
+	line-height: 1;
+	margin-top: 10px;
+	text-align: center;
+}
+.portfolio {
+	background-color: #ECEFF1;
+}
+.container {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+.title {
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	line-height: 1;
+	padding-top: 90px;
+}
+.title::after {
+	content:'';
+	display: block;
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin: 8px auto 0 auto;
+}
+.text {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+.portfolio-box {
+	width: 920px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+
+}
+.portfolio-image{
+	float: left;
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+}
+.portfolio-image:nth-child(1){
+	background-image: url(img/sketch.jpg);
+	margin:0 10px 10px 0;
+}
+.portfolio-image:nth-child(2) {
+	background-image: url(img/websuku.png);
+	margin :0 10px 10px 0;
+}
+.portfolio-image:nth-child(3) {
+	background-image: url(img/write.jpg);
+	margin-bottom: 10px;
+}
+.portfolio-image:nth-child(4) {
+	background-image: url(img/webcamp.png);
+	margin-right: 10px;
+}
+.portfolio-image:nth-child(5) {
+	background-image: url(img/talk.jpg);
+	margin-right: 10px;
+}
+.portfolio-image:nth-child(6) {
+	background-image: url(img/webcamp-mother.png);
+}
+.strength-box {
+	width: 980px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+}
+.strength {
+	width: 320px;
+	float: left;
+	margin-right:10px;
+	text-align: center;
+}
+.strength:last-child {
+	margin: 0;
+}
+i {
+	margin: 0 auto;
+}
+.strength-title {
+	font-size: 20px;
+	color: #000000;
+	padding:10px 0 10px 0;
+}
+.strength-text {
+	font-size: 16px;
+	color:#000000;
+}
+.profile {
+	background-color: #ECEFF1;
+}
+.profile-box {
+	padding: 30px 0 90px 0;
+
+}
+.left-content {
+	width: 50%;
+	float: left;
+}
+.my-image {
+	height: 250px;
+	width:  250px;
+	background-image: url(img/my-icon.jpg);
+	border-radius: 50%;
+	margin: 0 auto;
+
+}
+.right-content {
+	width: 50%;
+	float: right;
+}
+.name {
+	font-size: 20px;
+}
+.introduction {
+	font-size: 16px;
+	color: #000000;
+	padding-top: 5px;
+}
+.skill {
+	font-size: 20px;
+	padding-top: 20px;
+}
+.skill-details {
+	font-size: 16px;
+	color: #000000;
+	padding-top: 5px
+}
+.contact-box {
+	width: 800px;
+	margin: 0 auto;
+	padding: 30px 0 90px 0;
+}
+.left-contact-content {
+	width: 130px;
+	margin: 0 auto;
+}
+.contact-icon {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.mail-adress {
+	margin-bottom: 20px;
+}
+.right-contact-content {
+	width: 210px;
+	margin: 0 auto;
+}
+.fab {
+	display:inline-block;
+	margin-right: 20px;
+	font-size: 50px;
+}
+footer {
+	background-color: #EC715F;
+	height: 60px;
+}
+.footer-text {
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align: center;
+	line-height: 60px;
+}
